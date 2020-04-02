@@ -1,0 +1,13 @@
+Let ARR is an array having N elements
+1. Read ARR
+2. Repeat step 3 to 6 for I=0 to N-1
+3. Set MIN=ARR[I] and Set LOC=I
+4. Repeat step 5 for J=I+1 to N
+5. If MIN>ARR[J], then
+                (a) Set MIN=ARR[J]
+                (b) Set LOC=J
+                [End of if]
+  [End of step 4 loop]
+6. Interchange ARR[I] and ARR[LOC] using temporary variable
+ [End of step 2 outer loop]
+7. Exit

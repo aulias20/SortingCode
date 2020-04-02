@@ -1,0 +1,15 @@
+Problem Description
+
+1. Merge-sort is based on an algorithmic design pattern called divide-and-conquer.
+2. It forms tree structure.
+3. The height of the tree will be log(n).
+4. we merge n element at every level of the tree.
+5. The time complexity of this algorithm is O(n*log(n)).
+
+Problem Solution
+
+1. Split the data into two equal half until we get at most one element in both half.
+2. Merge Both into one making sure the resulting sequence is sorted.
+3. Recursively split them and merge on the basis of constraint given in step 1.
+4. Display the result.
+5. Exit.

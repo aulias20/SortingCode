@@ -1,0 +1,14 @@
+Let ARR is an array with N elements
+1. Read ARR
+2. Repeat step 3 to 8 for I=1 to N-1
+3. Set Temp=ARR[I]
+4. Set J=I-1
+5. Repeat step 6 and 7 while Temp<ARR[J] AND J>=0
+6. Set ARR[J+1]=ARR[J] [Moves element forward]
+7. Set J=J-1
+ [End of step 5 inner
+loop]
+8. Set ARR[J+1]=Temp [Insert element in proper place]
+ [End of step 2 outer
+loop]
+9. Exit     

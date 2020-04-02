@@ -1,0 +1,16 @@
+How it works?
+
+1. We first pick a pivot element. There are various ways to pick a pivot element.
+
+    Pick first element
+    Pick last element
+    Pick a random element
+    Pick median element
+
+So we can use anyone of above methods to pick the pivot element. In the program 
+  given below I have picked first element as pivot.
+
+2. Now all the elements smaller than pivot are placed at its left while elements 
+    bigger are placed at right.
+
+3. Repeat the above two steps recursively for both half.
